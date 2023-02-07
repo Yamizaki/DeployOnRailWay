@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn deploy1.wsgi && py manage.py runserver
